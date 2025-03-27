@@ -1,0 +1,77 @@
+.feed {
+    width: 100%;
+  }
+  
+  .feed-header {
+    background-color: rgba(255, 255, 255, 0.85);
+    backdrop-filter: blur(12px);
+    border-bottom: 1px solid #eee;
+  }
+  
+  .dark .feed-header {
+    background-color: rgba(21, 32, 43, 0.85);
+    border-bottom: 1px solid #38444d;
+  }
+  
+  .feed-tabs {
+    display: flex;
+    border-bottom: 1px solid #eee;
+  }
+  
+  .dark .feed-tabs {
+    border-bottom: 1px solid #38444d;
+  }
+  
+  .feed-tab {
+    flex: 1;
+    text-align: center;
+    padding: 16px 0;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.2s;
+    position: relative;
+  }
+  
+  .feed-tab:hover {
+    background-color: rgba(0, 0, 0, 0.03);
+  }
+  
+  .dark .feed-tab:hover {
+    background-color: rgba(255, 255, 255, 0.03);
+  }
+  
+  .feed-tab.active {
+    font-weight: 700;
+  }
+  
+  .feed-tab.active::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 56px;
+    height: 4px;
+    background-color: #1d9bf0;
+    border-radius: 9999px;
+  }
+  
+  .spin {
+    animation: spin 1s linear infinite;
+  }
+  
+  @keyframes spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+  .tweets-container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  

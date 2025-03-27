@@ -1,0 +1,126 @@
+.notifications {
+    width: 100%;
+  }
+  
+  .notifications-header {
+    background-color: rgba(255, 255, 255, 0.85);
+    backdrop-filter: blur(12px);
+    border-bottom: 1px solid #eee;
+  }
+  
+  .dark .notifications-header {
+    background-color: rgba(21, 32, 43, 0.85);
+    border-bottom: 1px solid #38444d;
+  }
+  
+  .notifications-tabs {
+    display: flex;
+    overflow-x: auto;
+    border-bottom: 1px solid #eee;
+  }
+  
+  .dark .notifications-tabs {
+    border-bottom: 1px solid #38444d;
+  }
+  
+  .notifications-tab {
+    padding: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.2s;
+    position: relative;
+    white-space: nowrap;
+    flex: 1;
+    text-align: center;
+  }
+  
+  .notifications-tab:hover {
+    background-color: rgba(0, 0, 0, 0.03);
+  }
+  
+  .dark .notifications-tab:hover {
+    background-color: rgba(255, 255, 255, 0.03);
+  }
+  
+  .notifications-tab.active {
+    font-weight: 700;
+  }
+  
+  .notifications-tab.active::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 56px;
+    height: 4px;
+    background-color: #1d9bf0;
+    border-radius: 9999px;
+  }
+  
+  .notification-item {
+    display: flex;
+    padding: 15px;
+    border-bottom: 1px solid #eee;
+    transition: background-color 0.2s;
+  }
+  
+  .dark .notification-item {
+    border-bottom: 1px solid #38444d;
+  }
+  
+  .notification-item:hover {
+    background-color: rgba(0, 0, 0, 0.03);
+  }
+  
+  .dark .notification-item:hover {
+    background-color: rgba(255, 255, 255, 0.03);
+  }
+  
+  .notification-icon-container {
+    width: 32px;
+    margin-right: 12px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .notification-icon {
+    font-size: 20px;
+  }
+  
+  .notification-icon.like {
+    color: #e0245e;
+  }
+  
+  .notification-icon.retweet {
+    color: #17bf63;
+  }
+  
+  .notification-icon.reply {
+    color: #1d9bf0;
+  }
+  
+  .notification-icon.follow {
+    color: #794bc4;
+  }
+  
+  .notification-avatar {
+    width: 32px;
+    height: 32px;
+    object-fit: cover;
+  }
+  
+  .notification-content {
+    flex: 1;
+  }
+  
+  .notification-tweet-text {
+    color: #536471;
+    font-size: 14px;
+  }
+  
+  .dark .notification-tweet-text {
+    color: #8899a6;
+  }
+  
+  

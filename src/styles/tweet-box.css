@@ -1,0 +1,91 @@
+.tweet-box {
+    padding: 15px;
+    border-bottom: 1px solid #eee;
+  }
+  
+  .dark .tweet-box {
+    border-bottom: 1px solid #38444d;
+  }
+  
+
+.tweet-box-textarea::placeholder {
+    color: #536471; 
+}
+
+
+.dark .tweet-box-textarea::placeholder {
+    color: #8899a6;
+}
+
+
+  .tweet-box-avatar {
+    margin-right: 12px;
+  }
+  
+  .tweet-box-avatar img {
+    width: 48px;
+    height: 48px;
+    object-fit: cover;
+  }
+  
+  .tweet-box-input-container {
+    flex: 1;
+  }
+  
+  .tweet-box-textarea {
+    border: none;
+    resize: none;
+    font-size: 20px;
+    outline: none;
+    box-shadow: none;
+    background-color: transparent;
+    color: inherit;
+    padding: 10px 0;
+    min-height: 50px;
+  }
+  
+  .tweet-box-textarea:focus {
+    box-shadow: none;
+    background-color: transparent;
+    color: inherit;
+  }
+  
+  .selected-image-container {
+    max-width: 100%;
+  }
+  
+  .selected-image {
+    max-height: 300px;
+    object-fit: contain;
+  }
+  
+  .remove-image-btn {
+    position: absolute;
+    top: 8px;
+    left: 8px;
+    opacity: 0.8;
+  }
+  
+  .remove-image-btn:hover {
+    opacity: 1;
+  }
+  
+  .tweet-box-icons {
+    display: flex;
+  }
+  
+  .tweet-box-icon-btn {
+    background: none;
+    border: none;
+    color: #1d9bf0;
+    padding: 8px;
+    border-radius: 50%;
+    margin-right: 5px;
+    transition: background-color 0.2s;
+  }
+  
+  .tweet-box-icon-btn:hover {
+    background-color: rgba(29, 155, 240, 0.1);
+  }
+  
+  

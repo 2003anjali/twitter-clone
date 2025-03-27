@@ -1,0 +1,87 @@
+.explore {
+    width: 100%;
+  }
+  
+  .explore-header {
+    background-color: rgba(255, 255, 255, 0.85);
+    backdrop-filter: blur(12px);
+    border-bottom: 1px solid #eee;
+  }
+  
+  .dark .explore-header {
+    background-color: rgba(21, 32, 43, 0.85);
+    border-bottom: 1px solid #38444d;
+  }
+  
+  .explore-tabs {
+    display: flex;
+    justify-content: space-between;
+    overflow-x: auto;
+    border-bottom: 1px solid #eee;
+    padding: 0 10px;
+  }
+  
+  .dark .explore-tabs {
+    border-bottom: 1px solid #38444d;
+  }
+  
+  .explore-tab {
+    padding: 16px 20px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.2s;
+    position: relative;
+    white-space: nowrap;
+    min-width: 80px; 
+    text-align: center;
+  }
+  
+  .explore-tab:hover {
+    background-color: rgba(0, 0, 0, 0.03);
+  }
+  
+  .dark .explore-tab:hover {
+    background-color: rgba(255, 255, 255, 0.03);
+  }
+  
+  .explore-tab.active {
+    font-weight: 700;
+  }
+  
+  .explore-tab.active::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100px; 
+    height: 4px;
+    background-color: #1d9bf0;
+    border-radius: 9999px;
+  }
+  
+  .trends-section {
+    border-bottom: 1px solid #eee;
+  }
+  
+  .dark .trends-section {
+    border-bottom: 1px solid #38444d;
+  }
+  .trend-item {
+    padding: 15px;
+    cursor: pointer;
+  }
+  
+  .trend-category {
+    font-size: 13px;
+  }
+  
+  .trend-title {
+    font-size: 15px;
+    margin-top: 2px;
+  }
+  
+  .trend-tweets {
+    font-size: 13px;
+    margin-top: 2px;
+  }

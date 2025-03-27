@@ -1,0 +1,184 @@
+.widgets {
+    padding: 0 15px;
+  }
+  
+  .search-container {
+    padding: 10px 0;
+    background-color: #fff;
+    z-index: 10;
+  }
+  
+  .dark .search-container {
+    background-color: #15202b;
+  }
+  
+  .search-icon {
+    position: absolute;
+    left: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    color:#8899a6;
+    width: 20px; 
+    height: 20px;
+    display: flex;
+    align-items: center;
+    z-index: 1; 
+  }
+  
+  .form-control.search-input {
+    border-radius: 9999px;
+    padding-left: 45px;
+    background-color: #f7f9fa;
+    border: 1px solid transparent;
+  }
+  
+  .dark .form-control.search-input{
+    background-color: #273340;
+    color: #fff;
+  }
+   
+  .dark .form-control.search-input::placeholder {
+    color: #8899a6;
+  }
+  
+  .form-control.search-input:focus {
+    background-color: #fff;
+    border-color: #1d9bf0;
+    box-shadow: none;
+  }
+  
+  .dark .form-control.search-input:focus {
+    background-color: #15202b;
+  }
+  
+  .trends-container,
+  .suggestions-container {
+    background-color: #f7f9fa;
+    border-radius: 16px;
+    overflow: hidden;
+  }
+  
+  .dark .trends-container,
+  .dark .suggestions-container {
+    background-color: #1e2732;
+  }
+  
+  .trends-header,
+  .suggestions-header {
+    font-size: 20px;
+    border-bottom: 1px solid #eee;
+  }
+  
+  .dark .trends-header,
+  .dark .suggestions-header {
+    border-bottom: 1px solid #38444d;
+  }
+  
+  .trend-item {
+    padding: 15px;
+    transition: background-color 0.2s;
+    cursor: pointer;
+    border-bottom: 1px solid #eee;
+  }
+  
+  .dark .trend-item {
+    border-bottom: 1px solid #38444d;
+  }
+  
+  .trend-item:hover {
+    background-color: rgba(0, 0, 0, 0.03);
+  }
+  
+  .dark .trend-item:hover {
+    background-color: rgba(255, 255, 255, 0.03);
+  }
+  
+  .trend-category {
+    font-size: 13px;
+    color: #536471;
+  }
+  
+  .dark .trend-category {
+    color: #8899a6;
+  }
+  
+  .trend-title {
+    font-size: 15px;
+    margin-top: 2px;
+  }
+  
+  .trend-tweets {
+    font-size: 13px;
+    color: #536471;
+    margin-top: 2px;
+  }
+  
+  .dark .trend-tweets {
+    color: #8899a6;
+  }
+  
+  .suggestion-item {
+    padding: 15px;
+    transition: background-color 0.2s;
+    cursor: pointer;
+    border-bottom: 1px solid #eee;
+  }
+  
+  .dark .suggestion-item {
+    border-bottom: 1px solid #38444d;
+  }
+  
+  .suggestion-item:hover {
+    background-color: rgba(0, 0, 0, 0.03);
+  }
+  
+  .dark .suggestion-item:hover {
+    background-color: rgba(255, 255, 255, 0.03);
+  }
+  
+  .suggestion-avatar {
+    width: 48px;
+    height: 48px;
+    object-fit: cover;
+  }
+  
+  .suggestion-name {
+    font-size: 15px;
+  }
+  
+  .suggestion-username {
+    font-size: 13px;
+  }
+  
+  .follow-btn {
+    font-size: 14px;
+    font-weight: bold;
+    padding: 6px 16px;
+  }
+  
+  .dark .follow-btn {
+    background-color: #fff;
+    color: #000;
+  }
+  
+  .show-more-btn {
+    width: 100%;
+    text-align: left;
+    padding: 15px;
+    background: none;
+    border: none;
+    color: #1d9bf0;
+    font-size: 15px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  .show-more-btn:hover {
+    background-color: rgba(0, 0, 0, 0.03);
+  }
+  
+  .dark .show-more-btn:hover {
+    background-color: rgba(255, 255, 255, 0.03);
+  }
+  
+  

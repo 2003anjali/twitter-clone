@@ -1,0 +1,153 @@
+.tweet {
+  padding: 15px;
+  border-bottom: 1px solid #eee;
+  transition: background-color 0.2s;
+  cursor: pointer;
+}
+
+.dark .tweet {
+  border-bottom: 1px solid #38444d;
+}
+
+.tweet:hover {
+  background-color: rgba(0, 0, 0, 0.03);
+}
+
+.dark .tweet:hover {
+  background-color: rgba(255, 255, 255, 0.03);
+}
+
+.tweet-avatar {
+  margin-right: 12px;
+}
+
+.tweet-avatar img {
+  width: 48px;
+  height: 48px;
+  object-fit: cover;
+}
+
+.tweet-content {
+  flex: 1;
+}
+
+.tweet-image {
+  border-radius: 16px;
+  overflow: hidden;
+  border: 1px solid #eee;
+}
+
+.dark .tweet-image {
+  border-color: #38444d;
+}
+
+.verified-badge {
+  display: inline-flex;
+  align-items: center;
+}
+
+.tweet-more-btn {
+  cursor: pointer;
+  width: 34px;
+  height: 34px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  color: #536471;
+}
+
+.tweet-more-btn:hover {
+  background-color: rgba(29, 155, 240, 0.1);
+  color: #1d9bf0;
+}
+
+.dark .tweet-more-btn {
+  color: #8899a6;
+}
+
+.dark .tweet-more-btn:hover {
+  background-color: rgba(29, 155, 240, 0.1);
+  color: #1d9bf0;
+}
+
+.tweet-actions {
+  max-width: 425px;
+}
+
+.tweet-action-btn {
+  display: flex;
+  align-items: center;
+  background: none;
+  border: none;
+  color: #536471;
+  font-size: 13px;
+  padding: 8px;
+  border-radius: 50%;
+  transition: all 0.2s;
+}
+
+.dark .tweet-action-btn {
+  color: #8899a6;
+}
+
+.tweet-action-btn:hover {
+  background-color: rgba(29, 155, 240, 0.1);
+  color: #1d9bf0;
+}
+
+.tweet-action-btn.text-danger {
+  color: #e0245e;
+}
+
+.tweet-action-btn.text-danger:hover {
+  background-color: rgba(224, 36, 94, 0.1);
+}
+
+.tweet-action-btn.text-success {
+  color: #17bf63;
+}
+
+.tweet-action-btn.text-success:hover {
+  background-color: rgba(23, 191, 99, 0.1);
+}
+
+.comments-container {
+  border-left: 2px solid #eee;
+  margin-left: 24px;
+  padding-left: 12px;
+}
+
+.dark .comments-container {
+  border-left: 2px solid #38444d;
+}
+
+.comment {
+  margin-bottom: 10px;
+}
+
+.comment-avatar {
+  margin-right: 8px;
+}
+
+.comment-avatar img {
+  width: 32px;
+  height: 32px;
+  object-fit: cover;
+}
+
+.comment-content {
+  flex: 1;
+  font-size: 14px;
+}
+
+
+.tweet .tweet-toggle-replies {
+    color: #1DA1F2; 
+    text-decoration: none; 
+  }
+  
+  .tweet .tweet-toggle-replies:hover {
+    color: #1a91da;
+    text-decoration: underline; 
+  }
