@@ -26,10 +26,12 @@ Installation and Setup
    cd twitter-clone
  Install dependencies:
    npm install
+   npm install vite @vitejs/plugin-react --save-dev
    npm install bootstrap
    npm install react-router-dom
    npm install bootstrap-icons
    npm install react-error-boundary
+   npm install date-fns
  Start the development server:
    npm run dev
 
